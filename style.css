@@ -1,0 +1,131 @@
+:root {
+  --color-white: white;
+  --color-glaay: hsl(216, 20%, 95%);
+  --color-glay2: #dddfe2;
+  --color-dark: #1d2129;
+  --color-blue: #1b74e4;
+  --color-grenn: #42b72a;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-glaay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+.main-info {
+  width: 600px;
+}
+
+.main-login {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-login-box {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.inputs {
+  padding: 15px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid var(--color-glay2);
+  width: 90%;
+  font-size: 17px;
+  color: var(--color-dark);
+}
+
+.inputs:focus {
+  border-color: var(--color-blue);
+  box-shadow: 0 0 0 2px var(--color-glay2);
+}
+
+.btn {
+  padding: 15px;
+  border: none;
+  color: var(--color-white);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid;
+  color: var(--color-glay2);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  text-align: center;
+}
+
+.btn-create-account {
+  background-color: var(--color-grenn);
+  width: auto;
+}
+
+.btn-create-account:hover {
+  background-color: #36a420;
+}
+
+.btn-Entrar {
+  margin-bottom: 1.5rem;
+  background-color: var(--color-blue);
+}
+
+.btn-Entrar:hover {
+  background-color: #166fe5;
+}
+h1 {
+  color: var(--color-blue);
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Facebook login</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-info">
+        <h1>facebook</h1>
+        <h3>
+          O facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida
+        </h3>
+      </div>
+      <div class="main-login">
+        <form id="loginForm" class="main-login-box">
+          <input
+            id="email"
+            type="email"
+            class="inputs"
+            placeholder="Email"
+            required
+          />
+
+          <p id="emailError" class="error-message"></p>
+
+          <input
+            id="psw"
+            type="password"
+            class="inputs"
+            placeholder="Senha"
+            required
+          />
+
+          <p id="pswError" class="error-message"></p>
+
+          <button type="button" onclick="enviar()" class="btn btn-Entrar">
+            Entrar
+          </button>
+          <a href="#" class="Esqueceu a senha">Esqueceu a senha?</a>
+          <hr />
+          <button class="btn btn-create-account">Criar uma nova conta</button>
+        </form>
+        <p>Criar uma página para uma celebridade, uma marca ou uma empresa.</p>
+      </div>
+    </div>
+  </body>
+</html>

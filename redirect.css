@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-glaay);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+  }
+  h1 {
+    color: #1b74e4;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
